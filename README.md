@@ -26,17 +26,17 @@ npm install
 3. Create a `.env.local` file in the root directory with the following variables:
 ```env
 # Clerk Authentication
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_c21vb3RoLXdoYWxlLTIwLmNsZXJrLmFjY291bnRzLmRldiQ
+CLERK_SECRET_KEY=sk_test_3m8GhkjmNJtc0DFQiu9rNVRKX9gwLxaoReU0pWCK4R
 
 # Stripe Payment
 NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your_stripe_publishable_key
-STRIPE_SECRET_KEY=your_stripe_secret_key
-STRIPE_PRICE_ID=your_stripe_price_id
+STRIPE_SECRET_KEY=
+STRIPE_PRICE_ID=pk_test_51ROQrBPqrY4hwEjUzeY6dPPoHWPVORnULC1MrglxbsTyvmBnMQuzBwY8L1PVQrgJcQHBzi1YNtILCj3SKxYv99la00XDqGeg8p
 
 # Supabase Database
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
+NEXT_PUBLIC_SUPABASE_URL=(https://fpvruuhiglrxbydshfga.supabase.co)
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZwdnJ1dWhpZ2xyeGJ5ZHNoZmdhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDcyNzM5NTIsImV4cCI6MjA2Mjg0OTk1Mn0.pGJeLxybYqFuYdvTSw59qDOLASInrjgIlsGrYQ5o-GY
 ```
 
 4. Run the development server:
